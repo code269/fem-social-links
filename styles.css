@@ -17,12 +17,6 @@
   padding: 0;
 }
 
-/* 
-
-Weights: 400, 600, 700 
-
-*/
-
 body {
   display: flex;
   justify-content: center;
@@ -74,6 +68,10 @@ button {
   font-weight: 700;
   color: var(--white);
   border-radius: 0.4rem;
+  cursor: pointer;
 }
 
-/* Media Queries */
+button:hover {
+  background-color: var(--white);
+  color: var(--grey-700);
+}
